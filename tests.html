@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title>Learning | Tests</title>
+        <link rel="icon" type="image/x-icon" href="/assets/iwonder2.png"
+
+    </head>
+
+    <style>
+ 
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+
+        body {
+            background-color: #443e41; 
+            color: white;
+        }
+
+
+        img {
+            border: 2px solid powderblue;
+            border-radius: 100px;
+            align-items: center;
+        }
+
+
+        .button {
+            border: none;
+            background-color: #009d9d;
+            border-radius: 5px;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+
+        }
+
+
+        * {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+    </style>
+
+    <body>
+        <button class="button" onclick="window.location.href='/index.html'">Home<br></button>
+        <button class="button" onclick="window.location.href='/project.html'">Projects<br></button>
+        <button class="button" onclick="window.location.href='/contact.html'">Contact<br></button>
+        <h1>Some tests buttons and stuff</h1>
+        <button class="button" type="button" onclick="simple_message_box('This is a popup box initialized through a fucntion in an external js file')">Click me</button>
+        <p id="demo">This text will change with the press of a button</p>
+        <button class="button" type="button" onclick="simple_innerhtml_swapper('demo', 'This text was changed by an external js file changing the innerhtml')">Change some text</button>
+        <p></p>
+        <button class="button" type="buton" onclick="wipe_page('This was wiped by an external js file writing over the page')">Wipe the page</button>
+        <p id="change-this">Number: 10</p>
+        <button class="button" type="button" onclick="random('change-this')">Random</button>
+
+    </body>
+
+
+
+<script src="assets/js/script.js"></script>
+
+
+
+</html>
+
+
